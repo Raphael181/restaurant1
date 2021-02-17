@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!--font styles -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Rubik&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
+  <!--font awesome css -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Fictional Restaurant</title>
+</head>
+<body>
+   <!-- Navigation bar -->
+  <div class="container-fluid">
+    <header class="site-header">
+      <nav class="navbar navbar-expand-md bg-light navbar-light justify-content-center fixed-top">
+        <div class="container">
+          <a class="navbar-brand mr-4" href="#">Fake Restaurant</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggle">
+            <div class="navbar-nav mr-auto">
+              <a class="nav-item nav-link" href="#myCarousel">Home</a>
+              <a class="nav-item nav-link" href="#menu">Menu</a>
+              <a class="nav-item nav-link" href="#menu_2">Catering Services</a>
+              <a class="nav-item nav-link" href="#blog">Reviews</a>
+            </div>
+            <!-- Navbar Right Side -->
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="#"><span class = "fa fa-facebook-f"></span></a>
+               
+            </div>
+
+           
+          </div>
+        </nav>
+
+    </header>
+
+    <div id = "myCarousel" class = "carousel slide" data-ride="carousel">
+      <!--indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ul>
+  
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/cake.jpg" alt="Los Angeles" class = "img-fluid">
+          <div class = "carousel-caption">
+            <p class = "fade-in">Enjoy gourmet meals from across the world</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/table.jpg" class = "img-fluid" alt="Chicago">
+          <div class = "carousel-caption">
+            <p class = "fade-in">The most delicious cake you will ever see</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/strawberrychocolates.jpg" alt="New York" class = "img-fluid ">
+          <div class = "carousel-caption">
+            <p class = "fade-in">some text</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+
+  <section id = "menu" class = "pt-4">
+    <h1 class = "text-center fade-in"> Valentines Special </h1>
+    <div class = "row">
+      <div class = "col-md-6 text-center p-5" id = "wrapper"><img src = "images/strawberrychocolates.jpg" alt ="strawberry" class = "img-fluid fade-in" id = "hover"></div>
+      <div class = "col-md-6 text-left p-5">
+        <p>Some text about the restaurant goes in here. Define what the restaurants goal is and how the srestaurant achieves this</p>
+      </div>
+    </div>
+  </section>
+
+  <section id = "menu_2" class = "pt-4 fade-in"> 
+    <h1 class = "text-center pb-4">What do we offer</h1>
+    <div class = "row">
+
+      <!--Card 1 -->
+      <div class = "col-md-3">
+        <div class = "p-2">
+          <div class = "card">
+            <img class="card-img-top mx-auto d-block pt-2" src="images/catering.jpg" alt="Card image">
+              <div class="card-body no-design">
+                <div class = "text-center">
+                  <p class="card-text">Enjoy our 24/7 catering services</p>
+                  <a href="#">Learn more</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class = "col-md-3">
+        <div class="p-2">
+          <div class = "card">
+            <img class="card-img-top mx-auto d-block pt-2" src="images/restaurant.jpg" alt="Card image">
+              <div class="card-body no-design">
+                <div class  = "text-center">
+                  <p class="card-text">Some example text.</p>
+                  <a href="#">Learn more</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Card 3 -->
+      <div class = "col-md-3">
+        <div class = "p-2">
+          <div class = "card">
+            <img class="card-img-top mx-auto d-block pt-2" src="images/waiter.jpg" alt="Card image">
+              <div class="card-body no-design">
+                <div class = "text-center">
+                  <p class="card-text">Some example text.</p>
+                  <a href="#">Learn more</a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <!--Card 4 -->
+      <div class = "col-md-3">
+        <div class = "p-2">
+          <div class = "card" >
+              <img class="card-img-top mx-auto d-block pt-2" src="images/dining.jpg" alt="Card image">
+                <div class="card-body no-design">
+                  <div class = "text-center">
+                    <p class="card-text">Your one stop restaurant for everything delicious.</p>
+                    <a href="#">Learn more</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+    </div>
+    
+  </section>
+
+  <section id = "blog" class = "pt-4">
+    <h1 class = "text-center pb-4">Reviews</h1>
+
+      <div class = "row" >
+        <!--Review card 1 -->
+          <div class = "col-md-4">
+            <div class = "p-4">
+              <div class = "card" >
+                  <img class="card-img-top mx-auto d-block pt-2"  src="images/dining.jpg" alt="Card image">
+                    <div class="card-body no-design">
+                      <div class = "text-center">
+                        <p class="card-text">Your one stop restaurant for everything delicious.</p>
+                        <a href="#">Learn more</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+        <div class = "col-md-4">
+          <div class = "p-4">
+            <div class = "card" >
+                <img class="card-img-top mx-auto d-block pt-2" src="images/dining.jpg" alt="Card image">
+                  <div class="card-body no-design">
+                    <div class = "text-center">
+                      <p class="card-text">Your one stop restaurant for everything delicious.</p>
+                      <a href="#">Learn more</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    <h4 class = "text-center"><a href = "#" class = "no-design">Read More</a></h4>
+  </section>
+
+  <section id  = "contact" class="jumbotron pt-4">
+    <h2 class = "text-center">If You have any special Requests, please feel free to call us: <span class = "no-design">+123-345-5678</span> or email us <a href = "#" class = "no-design">someemail@gmail.com</a>
+  </section>
+
+  <footer class = "row">
+    <div class = "col-sm-4 pt-4">
+      <div class = "text-center">
+        <h3>About us</h3>
+        <h4 class = "text-black-50">As a restaurant, we believe in the complete staisfaction of our customers.</h4>
+        <a href = "#" class = "no-design">Read More</a>
+      </div>
+    </div>
+
+    <div class = "col-sm-4 p-4">
+    <h3 class="text-center">Navigation</h3>
+      <ul>
+        <li><a class="no-design" href="#myCarousel">Home</a></li>
+        <li><a class="no-design" href="#menu">Menu</a></li>
+        <li><a class="no-design" href="#menu_2">Catering Services</a></li>
+        <li><a class="no-design" href="#blog">Reviews</a></li>
+      </ul>
+    </div>
+
+    <div class = "col-sm-4 p-4">
+      <div class = "text-center">
+        <h3>Address:</h3>
+        <h3 class = "text-black-50">345 EastWood Drive</h3>
+        <h3 class = "text-black-50">Windsor ON. 897YTR</h3>
+      </div>
+    </div>
+    
+    <div class = "col-sm-6">
+      <div class = "p-4">
+        <h3>Telephone</h3>
+        <h3 class = "text-black-50">+123-456-7890</h3>
+        <h3 class = "text-black-50">+134-567-9081</h3>
+      </div>
+    </div>
+
+    <div class = "col-sm-6">
+      <h3>Join our Newsletter</h3>
+      <form class = "form-inline" action = "#">
+        <input type = "email" class = "form-control mb-2 mr-sm-2" placeholder="Enter email" id = "email">
+        <button type = "submit" class = "btn btn-primary mb-2">Subscribe</button>
+      </form>    
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</div>
+</body>
+</html>

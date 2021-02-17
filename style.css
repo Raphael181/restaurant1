@@ -1,0 +1,187 @@
+body {
+  background: #F5F2D5;
+  color: #333333;
+  margin-top: 5rem;
+  font-family: "Playfair Display" , serif;
+  font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+}
+.card{
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.bg-steel {
+  background-color: #5f788a;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #cbd5db;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+
+.card-body{
+  height: 200px;
+}
+
+.card-img-top {
+  width: 200px;
+  height: 200px;
+}
+
+#blog.card{
+  background-color: #C9AB7E;
+}
+
+.no-design {
+  color: black;
+  font-weight: 400px;
+  font-family: 'Rubik' , sans-serif;
+  font-size: 20px;
+}
+
+.no-design a{
+  color: black;
+}
+
+a.no-design:hover{
+  color: black;
+}
+
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+
+/*blurred effect on image */
+.img-fluid{
+  position: absolute;
+ -webkit-filter:blur(5px);
+ -moz-filter: blur(5px);
+ -o-filter: blur(5px);
+ filter: blur(5px);
+}
+
+section #blog .row .card{
+  border-radius: 10%;
+}
